@@ -1,0 +1,58 @@
+/* src/pages/Animals.css */
+
+.animals-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+/* AI Panel */
+.ai-panel {
+  background: linear-gradient(135deg, rgba(0, 212, 170, 0.05) 0%, rgba(124, 111, 205, 0.05) 100%);
+  border-color: rgba(0, 212, 170, 0.2);
+}
+
+/* Recommendation card */
+.rec-card {
+  background: var(--color-surface-2);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  position: relative;
+  transition: all var(--transition-normal);
+}
+
+.rec-card:hover {
+  border-color: var(--color-primary);
+  transform: translateY(-2px);
+}
+
+.rec-match-badge {
+  position: absolute;
+  top: -8px;
+  right: 12px;
+  background: var(--gradient-primary);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 10px;
+  border-radius: var(--radius-full);
+}
+
+.rec-card strong {
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 8px;
+}
+
+.rec-card ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+@media (max-width: 768px) {
+  .animals-grid { grid-template-columns: 1fr; }
+}

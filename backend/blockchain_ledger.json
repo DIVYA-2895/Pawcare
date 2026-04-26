@@ -1,0 +1,1272 @@
+[
+  {
+    "index": 0,
+    "timestamp": "2026-04-19T15:32:07.287Z",
+    "type": "GENESIS",
+    "data": {
+      "message": "Pawcare Blockchain initialized"
+    },
+    "previousHash": "0000000000000000",
+    "hash": "0000000000000000"
+  },
+  {
+    "index": 1,
+    "timestamp": "2026-04-19T15:32:07.287Z",
+    "type": "ANIMAL_REGISTERED",
+    "data": {
+      "animalId": "69e4f577e9bad8961356d050",
+      "name": "Charlie",
+      "species": "dog",
+      "addedBy": "madhususila@gmail.com",
+      "timestamp": "2026-04-19T15:32:07.286Z"
+    },
+    "previousHash": "0000000000000000",
+    "hash": "12237e909c6097421fc3f3118c2860764f153c908ae680abf9e88e6220c10db7"
+  },
+  {
+    "index": 2,
+    "timestamp": "2026-04-24T05:48:54.830Z",
+    "type": "ADOPTION_CONFIRMED",
+    "data": {
+      "adoptionId": "69eb017469384844efe75f53",
+      "animalId": "69eb017469384844efe75f3f",
+      "animalName": "Max",
+      "approvedBy": "heudora25@gmail.com",
+      "timestamp": "2026-04-24T05:48:54.827Z"
+    },
+    "previousHash": "12237e909c6097421fc3f3118c2860764f153c908ae680abf9e88e6220c10db7",
+    "hash": "98cb21dbaa8b32b7687fdd76b3f8ba6d419d2c64925174a7dce0c1c64ccf692c"
+  },
+  {
+    "index": 3,
+    "timestamp": "2026-04-24T11:26:31.227Z",
+    "type": "ADOPTION_APPLIED",
+    "data": {
+      "adoptionId": "69eb5367b8698ed3cb0807ff",
+      "animalId": "69eb51a5696800e42fe65e90",
+      "animalName": "Oreo",
+      "applicantEmail": "adopter@pawcare.com",
+      "timestamp": "2026-04-24T11:26:31.225Z"
+    },
+    "previousHash": "98cb21dbaa8b32b7687fdd76b3f8ba6d419d2c64925174a7dce0c1c64ccf692c",
+    "hash": "1c38611034af79869a16c430f5f08f1ed102d7839c7436ec4a97ec7667bdae59"
+  },
+  {
+    "index": 4,
+    "timestamp": "2026-04-25T07:26:04.404Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69ec6b92be250fd27718eec5",
+      "name": "Kalu",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-25T07:26:04.402Z"
+    },
+    "previousHash": "1c38611034af79869a16c430f5f08f1ed102d7839c7436ec4a97ec7667bdae59",
+    "hash": "0a6a2f4afb9751e254af2b6446cfc6a46030dfb7e0c4a1fd655e31fd7cde3a8a"
+  },
+  {
+    "index": 5,
+    "timestamp": "2026-04-25T07:49:40.123Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69ec6b92be250fd27718eecb",
+      "name": "Rocky",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-25T07:49:40.120Z"
+    },
+    "previousHash": "0a6a2f4afb9751e254af2b6446cfc6a46030dfb7e0c4a1fd655e31fd7cde3a8a",
+    "hash": "e3a4ac2aa6add2b27d12dbedb2a9a0a521fb47fdcb3565a94bcf7c1b1ddec767"
+  },
+  {
+    "index": 6,
+    "timestamp": "2026-04-25T07:51:15.098Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69ec6b92be250fd27718eecb",
+      "name": "Rocky",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-25T07:51:15.097Z"
+    },
+    "previousHash": "e3a4ac2aa6add2b27d12dbedb2a9a0a521fb47fdcb3565a94bcf7c1b1ddec767",
+    "hash": "edd59ece249a56ab5eaf8c1835b97d05b648dc086a92fab83fd207d45a42d1db"
+  },
+  {
+    "index": 7,
+    "timestamp": "2026-04-25T07:51:41.569Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69ec6b92be250fd27718eecb",
+      "name": "Rocky",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-25T07:51:41.566Z"
+    },
+    "previousHash": "edd59ece249a56ab5eaf8c1835b97d05b648dc086a92fab83fd207d45a42d1db",
+    "hash": "2fae748431de748f06a76a637bf73e5b8af23d21df0e72dc3d791006cb7e2f02"
+  },
+  {
+    "index": 8,
+    "timestamp": "2026-04-25T07:51:52.713Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69ec6b92be250fd27718eecb",
+      "name": "Rocky",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-25T07:51:52.711Z"
+    },
+    "previousHash": "2fae748431de748f06a76a637bf73e5b8af23d21df0e72dc3d791006cb7e2f02",
+    "hash": "f31fd899335ed5cafb6d24fcdbc822e3347a0efd838243b027e06dbcf0a68431"
+  },
+  {
+    "index": 9,
+    "timestamp": "2026-04-25T07:52:39.534Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69ec6b92be250fd27718eecb",
+      "name": "Rocky",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-25T07:52:39.532Z"
+    },
+    "previousHash": "f31fd899335ed5cafb6d24fcdbc822e3347a0efd838243b027e06dbcf0a68431",
+    "hash": "95bd18550aad5d7fa9580cc45158e0ee1c7a6c7e0341dc1b390669faeed9aca6"
+  },
+  {
+    "index": 10,
+    "timestamp": "2026-04-25T07:56:38.241Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69ec6b92be250fd27718eec8",
+      "name": "Sheru",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-25T07:56:38.238Z"
+    },
+    "previousHash": "95bd18550aad5d7fa9580cc45158e0ee1c7a6c7e0341dc1b390669faeed9aca6",
+    "hash": "60aa6ace9f894843f03f8c58ebaad6f3414044b0793761c92caa17a3d36d0449"
+  },
+  {
+    "index": 11,
+    "timestamp": "2026-04-25T08:12:55.366Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69ec766cf04b91d03d7e7023",
+      "name": "Rocky",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-25T08:12:55.364Z"
+    },
+    "previousHash": "60aa6ace9f894843f03f8c58ebaad6f3414044b0793761c92caa17a3d36d0449",
+    "hash": "d24db9f67463c1728cd0e444f904d4986ad0f137f1ac8525e2ccee7bfc282e93"
+  },
+  {
+    "index": 12,
+    "timestamp": "2026-04-26T05:46:09.278Z",
+    "type": "ANIMAL_REGISTERED",
+    "data": {
+      "animalId": "69eda6a1f193d5914d55d4d3",
+      "name": "charlie",
+      "species": "dog",
+      "addedBy": "staff@pawcare.com",
+      "timestamp": "2026-04-26T05:46:09.272Z"
+    },
+    "previousHash": "d24db9f67463c1728cd0e444f904d4986ad0f137f1ac8525e2ccee7bfc282e93",
+    "hash": "3030a1f70dec5dadba7eb02a258a5674d0f300682f3039bb5305fcf9781b7f70"
+  },
+  {
+    "index": 13,
+    "timestamp": "2026-04-26T06:04:21.312Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6bf",
+      "name": "Leo",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T06:04:21.310Z"
+    },
+    "previousHash": "3030a1f70dec5dadba7eb02a258a5674d0f300682f3039bb5305fcf9781b7f70",
+    "hash": "fac10d9e68c496450fa34f66608e03fa4a3ca6e14fc2410fc7d3b7ce5b5389e8"
+  },
+  {
+    "index": 14,
+    "timestamp": "2026-04-26T06:05:57.652Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6bf",
+      "name": "Leo",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T06:05:57.649Z"
+    },
+    "previousHash": "fac10d9e68c496450fa34f66608e03fa4a3ca6e14fc2410fc7d3b7ce5b5389e8",
+    "hash": "5ecbf8e5445b6078118d92b16be62753a36906270851d14179f9465c0a15254a"
+  },
+  {
+    "index": 15,
+    "timestamp": "2026-04-26T06:06:14.158Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6bf",
+      "name": "Leo",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T06:06:14.156Z"
+    },
+    "previousHash": "5ecbf8e5445b6078118d92b16be62753a36906270851d14179f9465c0a15254a",
+    "hash": "030bfe4a1f06aeda0bb65a7553ecb38f99caa5a42a9a22e3e3ab076653b33acf"
+  },
+  {
+    "index": 16,
+    "timestamp": "2026-04-26T06:35:37.128Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6b9",
+      "name": "Sheru",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T06:35:37.125Z"
+    },
+    "previousHash": "030bfe4a1f06aeda0bb65a7553ecb38f99caa5a42a9a22e3e3ab076653b33acf",
+    "hash": "6aaa4e67e420618125c447ab61782a80ae4cdfea95255169e77760b8bc7d48cd"
+  },
+  {
+    "index": 17,
+    "timestamp": "2026-04-26T06:37:53.208Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6b9",
+      "name": "Sheru",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T06:37:53.207Z"
+    },
+    "previousHash": "6aaa4e67e420618125c447ab61782a80ae4cdfea95255169e77760b8bc7d48cd",
+    "hash": "e83111c1cfc1c8132e488f1a0d85412660c52a5d3584f4344c173560176c9546"
+  },
+  {
+    "index": 18,
+    "timestamp": "2026-04-26T06:40:14.207Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6bf",
+      "name": "Leo",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T06:40:14.204Z"
+    },
+    "previousHash": "e83111c1cfc1c8132e488f1a0d85412660c52a5d3584f4344c173560176c9546",
+    "hash": "ebd2cf3fef93a76572d95e3a2a9cbe950ae7454c461b162929d09613fa6a1ee4"
+  },
+  {
+    "index": 19,
+    "timestamp": "2026-04-26T07:42:46.482Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6c5",
+      "name": "Buddy",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T07:42:46.475Z"
+    },
+    "previousHash": "ebd2cf3fef93a76572d95e3a2a9cbe950ae7454c461b162929d09613fa6a1ee4",
+    "hash": "8b4fa9f5e14e721cf4fe81b8e33e2e1c9f210cc89b751034c6cfdcbffdad1c99"
+  },
+  {
+    "index": 20,
+    "timestamp": "2026-04-26T08:06:40.026Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6bf",
+      "name": "Leo",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T08:06:40.024Z"
+    },
+    "previousHash": "8b4fa9f5e14e721cf4fe81b8e33e2e1c9f210cc89b751034c6cfdcbffdad1c99",
+    "hash": "74cbed22723af78d0b1c6361d0726cf9b133de31fdbc8bba69b6998601e23757"
+  },
+  {
+    "index": 21,
+    "timestamp": "2026-04-26T08:07:28.793Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6c5",
+      "name": "Buddy",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T08:07:28.791Z"
+    },
+    "previousHash": "74cbed22723af78d0b1c6361d0726cf9b133de31fdbc8bba69b6998601e23757",
+    "hash": "ce0c17d3bab83042814d707373e90187bfcfae6fc0fcdebf2784d746546bdbe9"
+  },
+  {
+    "index": 22,
+    "timestamp": "2026-04-26T08:10:38.388Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6c3",
+      "name": "Max",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T08:10:38.386Z"
+    },
+    "previousHash": "ce0c17d3bab83042814d707373e90187bfcfae6fc0fcdebf2784d746546bdbe9",
+    "hash": "3b4e8e95442c57554223079421430281a311e26e183b69d64746f32a77e4d318"
+  },
+  {
+    "index": 23,
+    "timestamp": "2026-04-26T08:12:15.521Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6bd",
+      "name": "Tiger",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T08:12:15.519Z"
+    },
+    "previousHash": "3b4e8e95442c57554223079421430281a311e26e183b69d64746f32a77e4d318",
+    "hash": "73ecb650511a6794dd739c2155cc1d8e8082679234dadf9f649b51a4911d8450"
+  },
+  {
+    "index": 24,
+    "timestamp": "2026-04-26T08:13:56.513Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6c1",
+      "name": "Tommy",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T08:13:56.511Z"
+    },
+    "previousHash": "73ecb650511a6794dd739c2155cc1d8e8082679234dadf9f649b51a4911d8450",
+    "hash": "a0597846ae03b30403c384cd91a1659ec5997e03a7ecd4ed0a266c21d860faef"
+  },
+  {
+    "index": 25,
+    "timestamp": "2026-04-26T08:18:31.145Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6bb",
+      "name": "Rocky",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T08:18:31.142Z"
+    },
+    "previousHash": "a0597846ae03b30403c384cd91a1659ec5997e03a7ecd4ed0a266c21d860faef",
+    "hash": "1fde9e1e09a3189b4130effd349576ef75a4bce6ca7b3a1fbe5850b6b07451bb"
+  },
+  {
+    "index": 26,
+    "timestamp": "2026-04-26T08:19:39.311Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6b7",
+      "name": "Kalu",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T08:19:39.308Z"
+    },
+    "previousHash": "1fde9e1e09a3189b4130effd349576ef75a4bce6ca7b3a1fbe5850b6b07451bb",
+    "hash": "401f898082d0293ac2b0a88d7ede2088503b8bb5b0befc7f1a08e227deeb414e"
+  },
+  {
+    "index": 27,
+    "timestamp": "2026-04-26T08:21:13.859Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6b5",
+      "name": "Milo",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T08:21:13.857Z"
+    },
+    "previousHash": "401f898082d0293ac2b0a88d7ede2088503b8bb5b0befc7f1a08e227deeb414e",
+    "hash": "5201b1864937198223a550a48ec7371c869106ce4cbd4333eff83a70bbda174d"
+  },
+  {
+    "index": 28,
+    "timestamp": "2026-04-26T08:22:09.639Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6bd",
+      "name": "Tiger",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T08:22:09.637Z"
+    },
+    "previousHash": "5201b1864937198223a550a48ec7371c869106ce4cbd4333eff83a70bbda174d",
+    "hash": "96a20f5ec6334137f5179e7d6dad8a648010e2431c0ba7291b85f66258e9ad51"
+  },
+  {
+    "index": 29,
+    "timestamp": "2026-04-26T08:23:15.196Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6b3",
+      "name": "Bruno",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T08:23:15.194Z"
+    },
+    "previousHash": "96a20f5ec6334137f5179e7d6dad8a648010e2431c0ba7291b85f66258e9ad51",
+    "hash": "2cc4d8c0478f59f89a45b3e52fbd2306d8b8a63f016fbf135bfb65f9acec353e"
+  },
+  {
+    "index": 30,
+    "timestamp": "2026-04-26T08:26:37.553Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6b3",
+      "name": "Bruno",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T08:26:37.551Z"
+    },
+    "previousHash": "2cc4d8c0478f59f89a45b3e52fbd2306d8b8a63f016fbf135bfb65f9acec353e",
+    "hash": "6f9dc207c73f9dba9445664b11453a62c1dc1b3dc0a91120041c2ca06d5e5a56"
+  },
+  {
+    "index": 31,
+    "timestamp": "2026-04-26T08:27:02.752Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6c1",
+      "name": "Tommy",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T08:27:02.749Z"
+    },
+    "previousHash": "6f9dc207c73f9dba9445664b11453a62c1dc1b3dc0a91120041c2ca06d5e5a56",
+    "hash": "2e05b69f7c0edd5810c7e2132139ee9bbc0974d457e3941e77bcdd773131c278"
+  },
+  {
+    "index": 32,
+    "timestamp": "2026-04-26T08:27:50.861Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6ec",
+      "name": "Nala",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T08:27:50.857Z"
+    },
+    "previousHash": "2e05b69f7c0edd5810c7e2132139ee9bbc0974d457e3941e77bcdd773131c278",
+    "hash": "1bb8a20ff0bfd3b69f7311a4e796f830eb26121ead7c785145921dead36c0241"
+  },
+  {
+    "index": 33,
+    "timestamp": "2026-04-26T08:29:02.524Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6ec",
+      "name": "Nala",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T08:29:02.523Z"
+    },
+    "previousHash": "1bb8a20ff0bfd3b69f7311a4e796f830eb26121ead7c785145921dead36c0241",
+    "hash": "ffd95397a2b6d2fbedc6f5ce5b89a1fbb0c1ae3b32e585cf6e6fdc668a11f1cc"
+  },
+  {
+    "index": 34,
+    "timestamp": "2026-04-26T08:51:54.682Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6e5",
+      "name": "Bruno",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T08:51:54.680Z"
+    },
+    "previousHash": "ffd95397a2b6d2fbedc6f5ce5b89a1fbb0c1ae3b32e585cf6e6fdc668a11f1cc",
+    "hash": "9478b05e91db3ef7bf38b2b3f9438c9c82bdbe66d69254735ee8412a2a2b0970"
+  },
+  {
+    "index": 35,
+    "timestamp": "2026-04-26T08:57:41.614Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6ed",
+      "name": "Lily",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T08:57:41.612Z"
+    },
+    "previousHash": "9478b05e91db3ef7bf38b2b3f9438c9c82bdbe66d69254735ee8412a2a2b0970",
+    "hash": "6998ede3e9bd1778351bff7e175fbd71e6821af225e7b797d093b7c4c5fd0de7"
+  },
+  {
+    "index": 36,
+    "timestamp": "2026-04-26T09:23:39.409Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6eb",
+      "name": "Coco",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T09:23:39.407Z"
+    },
+    "previousHash": "6998ede3e9bd1778351bff7e175fbd71e6821af225e7b797d093b7c4c5fd0de7",
+    "hash": "759fff768a7594eba090f51c0351c5c06a1132cc19f4e6f0f8ca32a187df63b3"
+  },
+  {
+    "index": 37,
+    "timestamp": "2026-04-26T09:25:35.184Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6e9",
+      "name": "Chloe",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T09:25:35.181Z"
+    },
+    "previousHash": "759fff768a7594eba090f51c0351c5c06a1132cc19f4e6f0f8ca32a187df63b3",
+    "hash": "308a57b37573f6c234ebbaa7727eeca320938708172fd8ef97caef8c5a0aacdd"
+  },
+  {
+    "index": 38,
+    "timestamp": "2026-04-26T09:28:01.707Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6e9",
+      "name": "Chloe",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T09:28:01.706Z"
+    },
+    "previousHash": "308a57b37573f6c234ebbaa7727eeca320938708172fd8ef97caef8c5a0aacdd",
+    "hash": "42559a556652f792e2b88f51a08d3c4b6648b0698ad6a0bfffcc5e7020a8b05f"
+  },
+  {
+    "index": 39,
+    "timestamp": "2026-04-26T09:32:43.813Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6ea",
+      "name": "Mia",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T09:32:43.811Z"
+    },
+    "previousHash": "42559a556652f792e2b88f51a08d3c4b6648b0698ad6a0bfffcc5e7020a8b05f",
+    "hash": "81a77ab55727b6edd1a09a524d39ed698994c595e591a71610cfb5a63c6ee117"
+  },
+  {
+    "index": 40,
+    "timestamp": "2026-04-26T09:46:39.359Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6e8",
+      "name": "Lucy",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T09:46:39.357Z"
+    },
+    "previousHash": "81a77ab55727b6edd1a09a524d39ed698994c595e591a71610cfb5a63c6ee117",
+    "hash": "a0705af39c3555ca89d5d9e0db0d9f80e2d0e77cdfc0d9c80587156625e6e124"
+  },
+  {
+    "index": 41,
+    "timestamp": "2026-04-26T10:01:25.280Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6e8",
+      "name": "Lucy",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T10:01:25.278Z"
+    },
+    "previousHash": "a0705af39c3555ca89d5d9e0db0d9f80e2d0e77cdfc0d9c80587156625e6e124",
+    "hash": "8ca79c1a78605fdf1ef6cab3fe91e6c59acd081befbeadfd7db821c7f0aa849d"
+  },
+  {
+    "index": 42,
+    "timestamp": "2026-04-26T10:03:01.049Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6e6",
+      "name": "Luna",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T10:03:01.047Z"
+    },
+    "previousHash": "8ca79c1a78605fdf1ef6cab3fe91e6c59acd081befbeadfd7db821c7f0aa849d",
+    "hash": "7326c365f1209feffa5670952a364b1270da63adb71a61c02ada9e01f22ce0ec"
+  },
+  {
+    "index": 43,
+    "timestamp": "2026-04-26T10:04:29.836Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6e7",
+      "name": "Bella",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T10:04:29.834Z"
+    },
+    "previousHash": "7326c365f1209feffa5670952a364b1270da63adb71a61c02ada9e01f22ce0ec",
+    "hash": "6020f35cc1b3037eb04c336a0b5af5eb6f5dff933dd43330daa9f22d9591549b"
+  },
+  {
+    "index": 44,
+    "timestamp": "2026-04-26T10:08:35.853Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6ee",
+      "name": "Stella",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T10:08:35.850Z"
+    },
+    "previousHash": "6020f35cc1b3037eb04c336a0b5af5eb6f5dff933dd43330daa9f22d9591549b",
+    "hash": "7c7ed2c136909fa6256fcb18af2456ab68d999011c57df34998606f8bc34ae2d"
+  },
+  {
+    "index": 45,
+    "timestamp": "2026-04-26T10:09:38.933Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6ef",
+      "name": "Molly",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T10:09:38.931Z"
+    },
+    "previousHash": "7c7ed2c136909fa6256fcb18af2456ab68d999011c57df34998606f8bc34ae2d",
+    "hash": "d11745ab3636497280cdbc813a10d13fc5f8a0896cd541a92ec2d3634884fe57"
+  },
+  {
+    "index": 46,
+    "timestamp": "2026-04-26T10:11:04.787Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6f0",
+      "name": "Ruby",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T10:11:04.785Z"
+    },
+    "previousHash": "d11745ab3636497280cdbc813a10d13fc5f8a0896cd541a92ec2d3634884fe57",
+    "hash": "10630d924c43895dcae1f949774a9bacf4f0ab52edea8c7c2f6b450c8f779604"
+  },
+  {
+    "index": 47,
+    "timestamp": "2026-04-26T10:12:51.149Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6f1",
+      "name": "Rosie",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T10:12:51.147Z"
+    },
+    "previousHash": "10630d924c43895dcae1f949774a9bacf4f0ab52edea8c7c2f6b450c8f779604",
+    "hash": "9f5b7a8bf649b59099bc7105f7fba1516f6ab01ee66f08f072f4c1fd246cd4a6"
+  },
+  {
+    "index": 48,
+    "timestamp": "2026-04-26T10:14:25.148Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6c9",
+      "name": "Cooper",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T10:14:25.145Z"
+    },
+    "previousHash": "9f5b7a8bf649b59099bc7105f7fba1516f6ab01ee66f08f072f4c1fd246cd4a6",
+    "hash": "3d7d17c6e1c3a7e5303a75acfb07a4e8a4a06bfc6ad53ac02ec4901a90662e5e"
+  },
+  {
+    "index": 49,
+    "timestamp": "2026-04-26T10:15:23.992Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6d9",
+      "name": "Oliver",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T10:15:23.990Z"
+    },
+    "previousHash": "3d7d17c6e1c3a7e5303a75acfb07a4e8a4a06bfc6ad53ac02ec4901a90662e5e",
+    "hash": "08c745daa04420fbb7a8f25cd4edbf8d143795bb8f2dabc67cea80199b5e9141"
+  },
+  {
+    "index": 50,
+    "timestamp": "2026-04-26T10:16:25.996Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6db",
+      "name": "Loki",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T10:16:25.994Z"
+    },
+    "previousHash": "08c745daa04420fbb7a8f25cd4edbf8d143795bb8f2dabc67cea80199b5e9141",
+    "hash": "08149dfc589ca1574298a931a3057da3bb4bea5c2c9dade20b74c1a443f4f016"
+  },
+  {
+    "index": 51,
+    "timestamp": "2026-04-26T10:16:39.936Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6db",
+      "name": "Loki",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T10:16:39.933Z"
+    },
+    "previousHash": "08149dfc589ca1574298a931a3057da3bb4bea5c2c9dade20b74c1a443f4f016",
+    "hash": "58fae42ec9375e7da1c0baa5b86f9f0d78f367f9f4193e177fe25658bcdc5b47"
+  },
+  {
+    "index": 52,
+    "timestamp": "2026-04-26T10:18:56.720Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6d7",
+      "name": "Rex",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T10:18:56.717Z"
+    },
+    "previousHash": "58fae42ec9375e7da1c0baa5b86f9f0d78f367f9f4193e177fe25658bcdc5b47",
+    "hash": "55bb2574167c075e81a047b0121e52c4e9a358fa98dcfd5dafe59f60edb95585"
+  },
+  {
+    "index": 53,
+    "timestamp": "2026-04-26T10:20:08.804Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6c8",
+      "name": "Jack",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T10:20:08.802Z"
+    },
+    "previousHash": "55bb2574167c075e81a047b0121e52c4e9a358fa98dcfd5dafe59f60edb95585",
+    "hash": "797456fac8918aafce5e882e9bc11e1259814579f18a8e0ade842b7b6f486345"
+  },
+  {
+    "index": 54,
+    "timestamp": "2026-04-26T10:23:42.304Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6dd",
+      "name": "Zeke",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T10:23:42.302Z"
+    },
+    "previousHash": "797456fac8918aafce5e882e9bc11e1259814579f18a8e0ade842b7b6f486345",
+    "hash": "8974f512847494ca4cf5d39925177520c5b4873af383665b9bf998f6cf06e10c"
+  },
+  {
+    "index": 55,
+    "timestamp": "2026-04-26T10:26:02.638Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6e4",
+      "name": "Ace",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T10:26:02.636Z"
+    },
+    "previousHash": "8974f512847494ca4cf5d39925177520c5b4873af383665b9bf998f6cf06e10c",
+    "hash": "949e6fe331ef855f4c28ab5a293b791c4f34818e5da782380f87b124ec2f91b0"
+  },
+  {
+    "index": 56,
+    "timestamp": "2026-04-26T12:47:40.456Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6cc",
+      "name": "Hunter",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T12:47:40.448Z"
+    },
+    "previousHash": "949e6fe331ef855f4c28ab5a293b791c4f34818e5da782380f87b124ec2f91b0",
+    "hash": "076caa42d900ebd1a991003f79c2e4e0780fb7dfcb6a04d5b60ef08195a6034e"
+  },
+  {
+    "index": 57,
+    "timestamp": "2026-04-26T12:48:51.890Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6ce",
+      "name": "Apollo",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T12:48:51.886Z"
+    },
+    "previousHash": "076caa42d900ebd1a991003f79c2e4e0780fb7dfcb6a04d5b60ef08195a6034e",
+    "hash": "3725a5ecbdae6c75b7a3c525f70b5e2df5a722bc5710ae017a27e9077985c899"
+  },
+  {
+    "index": 58,
+    "timestamp": "2026-04-26T12:50:25.382Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6cd",
+      "name": "Buster",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T12:50:25.380Z"
+    },
+    "previousHash": "3725a5ecbdae6c75b7a3c525f70b5e2df5a722bc5710ae017a27e9077985c899",
+    "hash": "1f6bdb4bf5231c3228aec8497c7a06de9d96856fd967285211faf92b758a6467"
+  },
+  {
+    "index": 59,
+    "timestamp": "2026-04-26T12:51:28.232Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6cf",
+      "name": "Dexter",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T12:51:28.230Z"
+    },
+    "previousHash": "1f6bdb4bf5231c3228aec8497c7a06de9d96856fd967285211faf92b758a6467",
+    "hash": "a0987b181d72ec833e821ab9c4c23004f558bae30c07c69b360d84e456077d5b"
+  },
+  {
+    "index": 60,
+    "timestamp": "2026-04-26T12:53:28.415Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6e1",
+      "name": "Tank",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T12:53:28.413Z"
+    },
+    "previousHash": "a0987b181d72ec833e821ab9c4c23004f558bae30c07c69b360d84e456077d5b",
+    "hash": "42dbf551aaed0986e012d59aa643269fdc584e2e77acd6ed86d054b8dea73a41"
+  },
+  {
+    "index": 61,
+    "timestamp": "2026-04-26T12:54:25.768Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6d0",
+      "name": "Oscar",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T12:54:25.765Z"
+    },
+    "previousHash": "42dbf551aaed0986e012d59aa643269fdc584e2e77acd6ed86d054b8dea73a41",
+    "hash": "0e2c8c832f7bb05f5ae1b12a0d50a48b45837e7d33c9e9cc03d026259d933b4c"
+  },
+  {
+    "index": 62,
+    "timestamp": "2026-04-26T12:55:04.730Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6e5",
+      "name": "Bruno",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T12:55:04.728Z"
+    },
+    "previousHash": "0e2c8c832f7bb05f5ae1b12a0d50a48b45837e7d33c9e9cc03d026259d933b4c",
+    "hash": "0222edd10b344ce4c03b0e02b402a70f74b927746f83e7410c9d75ce986c6d1b"
+  },
+  {
+    "index": 63,
+    "timestamp": "2026-04-26T12:58:43.745Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6e0",
+      "name": "Moose",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T12:58:43.743Z"
+    },
+    "previousHash": "0222edd10b344ce4c03b0e02b402a70f74b927746f83e7410c9d75ce986c6d1b",
+    "hash": "13d7877149cf0e1c7f9079c5a4e1fe9b2dcb047dfdfacbfac7351d788b7aa3d2"
+  },
+  {
+    "index": 64,
+    "timestamp": "2026-04-26T12:59:39.322Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6d3",
+      "name": "Sam",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T12:59:39.319Z"
+    },
+    "previousHash": "13d7877149cf0e1c7f9079c5a4e1fe9b2dcb047dfdfacbfac7351d788b7aa3d2",
+    "hash": "faeb1362ef753fac48a979c0825ec509d5a5ebf18c046575c4c1f27c9edae6ae"
+  },
+  {
+    "index": 65,
+    "timestamp": "2026-04-26T13:00:50.632Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6d3",
+      "name": "Sam",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T13:00:50.630Z"
+    },
+    "previousHash": "faeb1362ef753fac48a979c0825ec509d5a5ebf18c046575c4c1f27c9edae6ae",
+    "hash": "1651bd6bd42d75574371ac46daaceb7da04101c8a470259746410e690ebffe47"
+  },
+  {
+    "index": 66,
+    "timestamp": "2026-04-26T13:01:02.497Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6d3",
+      "name": "Sam",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T13:01:02.495Z"
+    },
+    "previousHash": "1651bd6bd42d75574371ac46daaceb7da04101c8a470259746410e690ebffe47",
+    "hash": "04832d64ce350088ac6976d41ace7aca3681d272d961bab91f9e9784beb2a428"
+  },
+  {
+    "index": 67,
+    "timestamp": "2026-04-26T13:02:05.571Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6d1",
+      "name": "Rusty",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T13:02:05.568Z"
+    },
+    "previousHash": "04832d64ce350088ac6976d41ace7aca3681d272d961bab91f9e9784beb2a428",
+    "hash": "1e638309c7d32b4377e2097032602e0704c45e9107af07b51e17c494217ef739"
+  },
+  {
+    "index": 68,
+    "timestamp": "2026-04-26T13:03:33.284Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6d2",
+      "name": "Shadow",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T13:03:33.282Z"
+    },
+    "previousHash": "1e638309c7d32b4377e2097032602e0704c45e9107af07b51e17c494217ef739",
+    "hash": "31b60ac89161f0d84ff467e0e0303b7f091a3d08c4980501ee47068a8ac4cdd5"
+  },
+  {
+    "index": 69,
+    "timestamp": "2026-04-26T13:04:44.132Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6d6",
+      "name": "Henry",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T13:04:44.130Z"
+    },
+    "previousHash": "31b60ac89161f0d84ff467e0e0303b7f091a3d08c4980501ee47068a8ac4cdd5",
+    "hash": "fa509e43f460823e9cb34a24de0f1d07e0f19efbd663f21616c04b5d62dab5b0"
+  },
+  {
+    "index": 70,
+    "timestamp": "2026-04-26T13:04:56.659Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6d6",
+      "name": "Henry",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T13:04:56.657Z"
+    },
+    "previousHash": "fa509e43f460823e9cb34a24de0f1d07e0f19efbd663f21616c04b5d62dab5b0",
+    "hash": "c97fa45cf00a70b406413380d038c8b10e09b33aba70f7e705058232cfc7a148"
+  },
+  {
+    "index": 71,
+    "timestamp": "2026-04-26T13:06:03.888Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6d8",
+      "name": "Simba",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T13:06:03.885Z"
+    },
+    "previousHash": "c97fa45cf00a70b406413380d038c8b10e09b33aba70f7e705058232cfc7a148",
+    "hash": "50285437743d13913a536fbc15614a7f868f02de4b8dd66e6585a348e2525227"
+  },
+  {
+    "index": 72,
+    "timestamp": "2026-04-26T13:07:47.221Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6da",
+      "name": "Harley",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T13:07:47.218Z"
+    },
+    "previousHash": "50285437743d13913a536fbc15614a7f868f02de4b8dd66e6585a348e2525227",
+    "hash": "804be1544fe62f0f9eaa22e6ff761617a6c567d426c35b91249f0bd572aba2f5"
+  },
+  {
+    "index": 73,
+    "timestamp": "2026-04-26T13:09:43.538Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6cb",
+      "name": "Bear",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T13:09:43.536Z"
+    },
+    "previousHash": "804be1544fe62f0f9eaa22e6ff761617a6c567d426c35b91249f0bd572aba2f5",
+    "hash": "fab4820f0a79ebe87ecc6c16804a5c39f2dffec992b2ffe8624bcac5ee287d3a"
+  },
+  {
+    "index": 74,
+    "timestamp": "2026-04-26T13:11:52.622Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6c7",
+      "name": "Charlie",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T13:11:52.620Z"
+    },
+    "previousHash": "fab4820f0a79ebe87ecc6c16804a5c39f2dffec992b2ffe8624bcac5ee287d3a",
+    "hash": "682d41df257e3d87f81fe93d5d54390935601d9036bdd67c0d932cf5ae1294ae"
+  },
+  {
+    "index": 75,
+    "timestamp": "2026-04-26T13:13:02.025Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6e3",
+      "name": "Remi",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T13:13:02.023Z"
+    },
+    "previousHash": "682d41df257e3d87f81fe93d5d54390935601d9036bdd67c0d932cf5ae1294ae",
+    "hash": "804f047b49f4ecc302759f7e12eba178e7c731a144d77b45d8d64208262fd8de"
+  },
+  {
+    "index": 76,
+    "timestamp": "2026-04-26T13:13:26.273Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6e3",
+      "name": "Remi",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T13:13:26.271Z"
+    },
+    "previousHash": "804f047b49f4ecc302759f7e12eba178e7c731a144d77b45d8d64208262fd8de",
+    "hash": "feb39a2185d4b99224ba7d14cad760a04b402cad277bd81f1983fa96ed2e7677"
+  },
+  {
+    "index": 77,
+    "timestamp": "2026-04-26T13:14:43.903Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6dc",
+      "name": "Koda",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T13:14:43.900Z"
+    },
+    "previousHash": "feb39a2185d4b99224ba7d14cad760a04b402cad277bd81f1983fa96ed2e7677",
+    "hash": "61859c856a8775d169b3ba7ace8bd039d1568190ee5897f6ec75e2efc48f5402"
+  },
+  {
+    "index": 78,
+    "timestamp": "2026-04-26T13:16:33.100Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6df",
+      "name": "Jax",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T13:16:33.097Z"
+    },
+    "previousHash": "61859c856a8775d169b3ba7ace8bd039d1568190ee5897f6ec75e2efc48f5402",
+    "hash": "d74645810b45acdadf08c9c519327eee26ab8d1f3aa605095aace5bad30cffc3"
+  },
+  {
+    "index": 79,
+    "timestamp": "2026-04-26T13:19:53.793Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6f2",
+      "name": "Bunny",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T13:19:53.790Z"
+    },
+    "previousHash": "d74645810b45acdadf08c9c519327eee26ab8d1f3aa605095aace5bad30cffc3",
+    "hash": "281a6dacaecab08f59b55ea42f4e8dfb9ab2820bdb7bff7a9cd4974d9db7ef6f"
+  },
+  {
+    "index": 80,
+    "timestamp": "2026-04-26T13:25:34.639Z",
+    "type": "ANIMAL_REGISTERED",
+    "data": {
+      "animalId": "69ee124eca754d7d71374ba1",
+      "name": "Mocha",
+      "species": "rabbit",
+      "addedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T13:25:34.637Z"
+    },
+    "previousHash": "281a6dacaecab08f59b55ea42f4e8dfb9ab2820bdb7bff7a9cd4974d9db7ef6f",
+    "hash": "2693744b4186fe908f2c4a54b8e0040ec317cb2ef6e7c56adb9b4b025628774b"
+  },
+  {
+    "index": 81,
+    "timestamp": "2026-04-26T13:26:53.827Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69ee124eca754d7d71374ba1",
+      "name": "Mocha",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T13:26:53.826Z"
+    },
+    "previousHash": "2693744b4186fe908f2c4a54b8e0040ec317cb2ef6e7c56adb9b4b025628774b",
+    "hash": "4ed382bc4168996834ffd680570417bd8ed6a557ac93a29c8f055f037995fc84"
+  },
+  {
+    "index": 82,
+    "timestamp": "2026-04-26T13:27:08.381Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69ee124eca754d7d71374ba1",
+      "name": "Mocha",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T13:27:08.378Z"
+    },
+    "previousHash": "4ed382bc4168996834ffd680570417bd8ed6a557ac93a29c8f055f037995fc84",
+    "hash": "89a43e80ccf5bbfb29dca9dc2bf1ac38aa740741ba5c70ea1d86918a8dc282cf"
+  },
+  {
+    "index": 83,
+    "timestamp": "2026-04-26T13:28:06.217Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6f3",
+      "name": "Flopsy",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T13:28:06.215Z"
+    },
+    "previousHash": "89a43e80ccf5bbfb29dca9dc2bf1ac38aa740741ba5c70ea1d86918a8dc282cf",
+    "hash": "ea1643135ca964fa9465ab958df5ea8bdb80f2d9ffacf0e1b2fcfb2dfa6ad9d3"
+  },
+  {
+    "index": 84,
+    "timestamp": "2026-04-26T13:30:11.107Z",
+    "type": "ANIMAL_REGISTERED",
+    "data": {
+      "animalId": "69ee13630f7cf0321161a199",
+      "name": "poppy",
+      "species": "rabbit",
+      "addedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T13:30:11.105Z"
+    },
+    "previousHash": "ea1643135ca964fa9465ab958df5ea8bdb80f2d9ffacf0e1b2fcfb2dfa6ad9d3",
+    "hash": "79d275f32339aa523f7eb62d0b50bffcd0f4d996077fd6d66ab3d7849ee01567"
+  },
+  {
+    "index": 85,
+    "timestamp": "2026-04-26T13:30:33.618Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69ee124eca754d7d71374ba1",
+      "name": "Mocha",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T13:30:33.615Z"
+    },
+    "previousHash": "79d275f32339aa523f7eb62d0b50bffcd0f4d996077fd6d66ab3d7849ee01567",
+    "hash": "6d76a3bdeb7b9c4d93c384b03942b39477a7dee97897e85819b27ba947e70289"
+  },
+  {
+    "index": 86,
+    "timestamp": "2026-04-26T13:35:10.996Z",
+    "type": "ANIMAL_REGISTERED",
+    "data": {
+      "animalId": "69ee148e700f31cf4d26349e",
+      "name": "paco",
+      "species": "bird",
+      "addedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T13:35:10.994Z"
+    },
+    "previousHash": "6d76a3bdeb7b9c4d93c384b03942b39477a7dee97897e85819b27ba947e70289",
+    "hash": "37c9e66a7847adfff07a0bf25fd83d083c9965b1d1f87a28932fca96ea807e24"
+  },
+  {
+    "index": 87,
+    "timestamp": "2026-04-26T13:35:38.450Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69ee148e700f31cf4d26349e",
+      "name": "paco",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T13:35:38.447Z"
+    },
+    "previousHash": "37c9e66a7847adfff07a0bf25fd83d083c9965b1d1f87a28932fca96ea807e24",
+    "hash": "377c47209e9e10d954597a5f77d9d118472b5dd6097279ae22ae6cf4bfa8ed71"
+  },
+  {
+    "index": 88,
+    "timestamp": "2026-04-26T13:38:06.061Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6d4",
+      "name": "Lucky",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T13:38:06.059Z"
+    },
+    "previousHash": "377c47209e9e10d954597a5f77d9d118472b5dd6097279ae22ae6cf4bfa8ed71",
+    "hash": "bb7fb248a69f990d3cd80b9ce2ddcfcc7a041c05bbe04cc9ff7b64e849d0ea21"
+  },
+  {
+    "index": 89,
+    "timestamp": "2026-04-26T13:45:01.322Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6de",
+      "name": "Gus",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T13:45:01.319Z"
+    },
+    "previousHash": "bb7fb248a69f990d3cd80b9ce2ddcfcc7a041c05bbe04cc9ff7b64e849d0ea21",
+    "hash": "e986e110690d9fddb67375bcb04ba5276990df4f5f229dcbe631e4703290bddb"
+  },
+  {
+    "index": 90,
+    "timestamp": "2026-04-26T13:46:43.851Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6d5",
+      "name": "Toby",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T13:46:43.845Z"
+    },
+    "previousHash": "e986e110690d9fddb67375bcb04ba5276990df4f5f229dcbe631e4703290bddb",
+    "hash": "3956309d0df0b552193350a0abe6313124db5a988a46317d7366505bb7b4d7bc"
+  },
+  {
+    "index": 91,
+    "timestamp": "2026-04-26T13:47:50.700Z",
+    "type": "ANIMAL_UPDATED",
+    "data": {
+      "animalId": "69eda94e79777a65752da6ca",
+      "name": "Duke",
+      "updatedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T13:47:50.697Z"
+    },
+    "previousHash": "3956309d0df0b552193350a0abe6313124db5a988a46317d7366505bb7b4d7bc",
+    "hash": "390ae35f5ad73c6c4bbdc3caa3d631f7804e909a8eb0a783445ce096181a530a"
+  },
+  {
+    "index": 92,
+    "timestamp": "2026-04-26T13:50:02.641Z",
+    "type": "ANIMAL_REGISTERED",
+    "data": {
+      "animalId": "69ee180a4257aa8e7864ed99",
+      "name": "Fuzzy",
+      "species": "rabbit",
+      "addedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T13:50:02.639Z"
+    },
+    "previousHash": "390ae35f5ad73c6c4bbdc3caa3d631f7804e909a8eb0a783445ce096181a530a",
+    "hash": "845199c96f414919188f0374d29327c68de6408028dd4ec23eef4cdfa6980360"
+  },
+  {
+    "index": 93,
+    "timestamp": "2026-04-26T13:52:08.964Z",
+    "type": "ANIMAL_REGISTERED",
+    "data": {
+      "animalId": "69ee1888561e5f4594bd335a",
+      "name": "Hazel",
+      "species": "rabbit",
+      "addedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T13:52:08.961Z"
+    },
+    "previousHash": "845199c96f414919188f0374d29327c68de6408028dd4ec23eef4cdfa6980360",
+    "hash": "ddda0cbe8a6d8cb5ba4c065913551fe4ceaf61c4a914ed6ae8d60040110a08b3"
+  },
+  {
+    "index": 94,
+    "timestamp": "2026-04-26T13:54:22.450Z",
+    "type": "ANIMAL_REGISTERED",
+    "data": {
+      "animalId": "69ee190ee126ed4edbff1065",
+      "name": "Love birds",
+      "species": "bird",
+      "addedBy": "admin@pawcare.com",
+      "timestamp": "2026-04-26T13:54:22.448Z"
+    },
+    "previousHash": "ddda0cbe8a6d8cb5ba4c065913551fe4ceaf61c4a914ed6ae8d60040110a08b3",
+    "hash": "3a92df45d000606d1d07cc014d0db1ca7bbc96c405afac193cdbf82b3e0b8999"
+  },
+  {
+    "index": 95,
+    "timestamp": "2026-04-26T13:55:51.225Z",
+    "type": "ADOPTION_APPLIED",
+    "data": {
+      "adoptionId": "69ee1967ac2c0eeded54476d",
+      "animalId": "69ee1888561e5f4594bd335a",
+      "animalName": "Hazel",
+      "applicantEmail": "adopter@pawcare.com",
+      "timestamp": "2026-04-26T13:55:51.223Z"
+    },
+    "previousHash": "3a92df45d000606d1d07cc014d0db1ca7bbc96c405afac193cdbf82b3e0b8999",
+    "hash": "c4d859cac53117e66af6dc294c77151d5f0fbd4943187699bc2c2ff60621d36b"
+  },
+  {
+    "index": 96,
+    "timestamp": "2026-04-26T13:56:32.463Z",
+    "type": "ADOPTION_APPLIED",
+    "data": {
+      "adoptionId": "69ee199098249db40ae521fd",
+      "animalId": "69eda94e79777a65752da6ec",
+      "animalName": "Nala",
+      "applicantEmail": "adopter@pawcare.com",
+      "timestamp": "2026-04-26T13:56:32.461Z"
+    },
+    "previousHash": "c4d859cac53117e66af6dc294c77151d5f0fbd4943187699bc2c2ff60621d36b",
+    "hash": "fd36e70bc1fcc0242dc4405288c2842e3a876aad65d82834e452407f8f7a699d"
+  }
+]

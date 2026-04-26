@@ -1,0 +1,143 @@
+/* src/pages/Adoptions.css */
+
+/* Filter tabs */
+.adoption-filter-tabs {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 24px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-full);
+  padding: 4px;
+  width: fit-content;
+}
+
+.adoption-tab {
+  padding: 8px 20px;
+  border-radius: var(--radius-full);
+  border: none;
+  background: transparent;
+  color: var(--color-text-muted);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all var(--transition-normal);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  position: relative;
+}
+
+.adoption-tab:hover { color: var(--color-text); }
+
+.adoption-tab.active {
+  background: var(--color-surface-2);
+  color: var(--color-text);
+  box-shadow: var(--shadow-sm);
+}
+
+.adoption-tab-badge {
+  background: var(--color-warning);
+  color: #000;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 1px 6px;
+  border-radius: var(--radius-full);
+}
+
+/* Adoptions list */
+.adoptions-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Single adoption card */
+.adoption-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  transition: all var(--transition-normal);
+}
+
+.adoption-card:hover {
+  border-color: rgba(0, 212, 170, 0.2);
+  transform: translateX(4px);
+}
+
+.adoption-card.pending { border-left: 3px solid var(--color-warning); }
+.adoption-card.approved { border-left: 3px solid var(--color-success); }
+.adoption-card.rejected { border-left: 3px solid var(--color-danger); }
+
+.adoption-card-left {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  flex: 1;
+  min-width: 0;
+}
+
+.adoption-card-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+.adoption-animal-thumb {
+  width: 64px;
+  height: 64px;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  background: var(--color-surface-2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.adoption-animal-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.adoption-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.adoption-animal-name {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: var(--font-display);
+}
+
+/* Review details grid */
+.review-details-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  background: var(--color-surface-2);
+  padding: 12px;
+  border-radius: var(--radius-md);
+}
+
+@media (max-width: 768px) {
+  .adoption-card {
+    flex-direction: column;
+  }
+  .adoption-card-right {
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
