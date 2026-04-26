@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🐾 Pawcare — Digital Animal Record & Adoption System
 
 A full-stack, cloud-based web application for managing rescued animals, health records, adoptions, and data integrity via AI + Blockchain simulation.
@@ -249,3 +250,7 @@ Located at `backend/modules/blockchainModule.js`:
 | CORS errors | Ensure CLIENT_URL matches frontend URL |
 | Images not loading | Check uploads/ directory exists |
 | npx won't run | Use `node "path/to/npm-cli.js"` instead |
+=======
+# Pawcare
+Animal Shelter Management System(pawcare)
+>>>>>>> 6bcc7dcce7b6d5bba5ef0c9b93e5642963757d02
