@@ -37,16 +37,6 @@ const Login = () => {
     }
   };
 
-  // Quick fill for demo
-  const fillDemo = (role) => {
-    const demos = {
-      admin: { email: 'admin@pawcare.com', password: 'admin123' },
-      staff: { email: 'staff@pawcare.com', password: 'staff123' },
-      adopter: { email: 'adopter@pawcare.com', password: 'adopter123' },
-    };
-    setFormData(demos[role]);
-  };
-
   return (
     <div className="auth-page">
       {/* Background decoration */}
@@ -56,8 +46,7 @@ const Login = () => {
       <div className="auth-container animate-fade-up">
         {/* Logo */}
         <div className="auth-logo">
-          <span className="auth-logo-icon">🐾</span>
-          <h1 className="auth-logo-text">Pawcare</h1>
+          <h1 className="auth-logo-text">Pawcare🐾</h1>
           <p className="auth-logo-subtitle">Digital Animal Record & Adoption System</p>
         </div>
 
@@ -103,16 +92,6 @@ const Login = () => {
               )}
             </button>
           </form>
-
-          {/* Demo Quick Fill */}
-          <div className="auth-demo">
-            <p className="auth-demo-label">Quick Demo Login:</p>
-            <div className="auth-demo-buttons">
-              <button className="auth-demo-btn" onClick={() => fillDemo('admin')}>Admin</button>
-              <button className="auth-demo-btn" onClick={() => fillDemo('staff')}>Staff</button>
-              <button className="auth-demo-btn" onClick={() => fillDemo('adopter')}>Adopter</button>
-            </div>
-          </div>
 
           <p className="auth-switch">
             Don't have an account?{' '}

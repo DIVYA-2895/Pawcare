@@ -159,6 +159,15 @@ const Adoptions = () => {
 // Single adoption request card
 const AdoptionCard = ({ adoption, isAdmin, onReview }) => {
   const { animal, applicant, status, message, createdAt, reviewedBy, reviewedAt, reviewNotes, homeType, experience } = adoption;
+  const BASE_URL = "https://pawcare-y084.onrender.com";
+
+  // Format the image URL correctly, handling backslashes and ensuring no double slashes
+  const getImageUrl = (imagePath) => {
+    if (!imagePath) return "/placeholder.png";
+    if (imagePath.startsWith("http")) return imagePath;
+    const cleanPath = imagePath.replace(/\\/g, '/').replace(/^\/+/, '');
+    return `${BASE_URL}/${cleanPath}`;
+  };
 
   return (
     <div className={`adoption-card animate-fade-up ${status}`}>
@@ -166,7 +175,7 @@ const AdoptionCard = ({ adoption, isAdmin, onReview }) => {
         {/* Animal image */}
         <div className="adoption-animal-thumb">
           {animal?.image ? (
-            <img src={animal.image} alt={animal?.name} onError={(e) => (e.target.src = "https://via.placeholder.com/300x200?text=No+Image")} />
+            <img src={getImageUrl(animal.image)} alt={animal?.name} onError={(e) => (e.target.src = "/placeholder.png")} />
           ) : (
             <span style={{ fontSize: 28 }}>🐾</span>
           )}

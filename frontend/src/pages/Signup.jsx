@@ -63,8 +63,7 @@ const Signup = () => {
 
       <div className="auth-container animate-fade-up">
         <div className="auth-logo">
-          <span className="auth-logo-icon">🐾</span>
-          <h1 className="auth-logo-text">Pawcare</h1>
+          <h1 className="auth-logo-text">Pawcare🐾</h1>
           <p className="auth-logo-subtitle">Join thousands helping animals find homes</p>
         </div>
 
