@@ -218,7 +218,13 @@ const Animals = () => {
         ) : (
           <div className="animals-grid stagger-children">
             {animals.map((animal) => (
-              <AnimalCard key={animal._id} animal={animal} />
+              <div 
+                key={animal._id} 
+                onClick={() => navigate(`/animals/${animal._id}`)} 
+                style={{ cursor: 'pointer', height: '100%' }}
+              >
+                <AnimalCard animal={animal} />
+              </div>
             ))}
           </div>
         )}
