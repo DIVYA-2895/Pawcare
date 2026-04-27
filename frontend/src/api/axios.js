@@ -9,6 +9,7 @@ const API_BASE = 'https://pawcare-y084.onrender.com/api';
 const api = axios.create({
   baseURL: API_BASE,
   headers: { 'Content-Type': 'application/json' },
+  withCredentials: true,
 });
 
 // Request interceptor — automatically attach JWT token to every request

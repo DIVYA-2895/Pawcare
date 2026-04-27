@@ -22,13 +22,19 @@ const app = express();
 // ===========================
 
 // Enable CORS for frontend requests
-app.use(cors({
+const corsOptions = {
   origin: [
     'http://localhost:5173',
-    'https://pawcare-git-main-divya-2895s-projects.vercel.app',
+    'https://pawcare-mu.vercel.app',
   ],
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true,
-}));
+  optionsSuccessStatus: 200 // For legacy browser support
+};
+
+app.use(cors(corsOptions));
+app.options('*', cors(corsOptions)); // Enable pre-flight across-the-board
 
 // Parse incoming JSON request bodies
 app.use(express.json());
