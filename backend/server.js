@@ -25,9 +25,8 @@ const app = express();
 app.use(cors({
   origin: [
     'http://localhost:5173',
-    'https://pawcare-divya-2895s-projects.vercel.app',
-    process.env.CLIENT_URL // fallback if defined
-  ].filter(Boolean),
+    'https://pawcare-git-main-divya-2895s-projects.vercel.app',
+  ],
   credentials: true,
 }));
 
