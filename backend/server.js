@@ -23,7 +23,11 @@ const app = express();
 
 // Enable CORS for frontend requests
 app.use(cors({
-  origin: process.env.CLIENT_URL || 'http://localhost:5173',
+  origin: [
+    'http://localhost:5173',
+    'https://pawcare-divya-2895s-projects.vercel.app',
+    process.env.CLIENT_URL // fallback if defined
+  ].filter(Boolean),
   credentials: true,
 }));
 
