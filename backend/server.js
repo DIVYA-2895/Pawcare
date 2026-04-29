@@ -26,7 +26,8 @@ const corsOptions = {
   origin: [
     'http://localhost:5173',
     'https://pawcare-mu.vercel.app',
-  ],
+    process.env.CLIENT_URL
+  ].filter(Boolean),
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true,

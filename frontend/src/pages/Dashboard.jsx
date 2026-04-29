@@ -2,7 +2,7 @@
 // Main dashboard with stats, recent animals, and reminders
 
 import { useState, useEffect } from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { Link, NavLink, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import api from '../api/axios';
 import toast from 'react-hot-toast';
@@ -10,6 +10,7 @@ import './Dashboard.css';
 
 const Dashboard = () => {
   const { user, hasRole, logout } = useAuth();
+  const navigate = useNavigate();
   const [stats, setStats] = useState({ total: 0, available: 0, adopted: 0, pending: 0, dogs: 0, cats: 0, others: 0 });
   const [recentAnimals, setRecentAnimals] = useState([]);
   const [reminders, setReminders] = useState([]);
@@ -130,7 +131,7 @@ const Dashboard = () => {
 
         {/* Top Summary Cards */}
         <section className="dashboard-summary-cards grid-4 stagger-children">
-          <div className="summary-card card-blue animate-fade-up">
+          <div className="summary-card card-blue animate-fade-up" onClick={() => navigate('/animals')}>
             <div className="summary-card-icon">🐾</div>
             <div className="summary-card-info">
               <h3>Total Animals</h3>
@@ -139,7 +140,7 @@ const Dashboard = () => {
             </div>
           </div>
           
-          <div className="summary-card card-green animate-fade-up">
+          <div className="summary-card card-green animate-fade-up" onClick={() => navigate('/animals?status=available')}>
             <div className="summary-card-icon">✅</div>
             <div className="summary-card-info">
               <h3>Available for Adoption</h3>
@@ -148,7 +149,7 @@ const Dashboard = () => {
             </div>
           </div>
           
-          <div className="summary-card card-purple animate-fade-up">
+          <div className="summary-card card-purple animate-fade-up" onClick={() => navigate('/animals?status=adopted')}>
             <div className="summary-card-icon">🏠</div>
             <div className="summary-card-info">
               <h3>Adopted Animals</h3>
@@ -157,7 +158,7 @@ const Dashboard = () => {
             </div>
           </div>
           
-          <div className="summary-card card-orange animate-fade-up">
+          <div className="summary-card card-orange animate-fade-up" onClick={() => navigate('/vaccinations')}>
             <div className="summary-card-icon">⚠️</div>
             <div className="summary-card-info">
               <h3>Vaccination Alerts</h3>
@@ -265,7 +266,8 @@ const RecentAnimalRow = ({ animal }) => {
   const getImageUrl = (img) => {
     if (!img) return null;
     if (img.startsWith('http')) return img;
-    return `http://localhost:5000${img}`;
+    // Fallback for old unmigrated images
+    return `https://pawcare-y084.onrender.com${img}`;
   };
 
   return (

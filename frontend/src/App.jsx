@@ -91,6 +91,8 @@ function AppLayout() {
         />
 
         <Route path="/animals/:id" element={<AnimalDetail />} />
+        
+        <Route path="/vaccinations" element={<Navigate to="/animals" replace />} />
 
         <Route path="/adoptions" element={<Adoptions />} />
 

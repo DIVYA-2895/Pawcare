@@ -29,8 +29,8 @@ const AnimalCard = ({ animal }) => {
   const getImageUrl = (img) => {
     if (!img) return null;
     if (img.startsWith('http')) return img;
-    // Backend now stores path starting with /uploads/
-    return `http://localhost:5000${img}`;
+    // Fallback for old unmigrated images
+    return `https://pawcare-y084.onrender.com${img}`;
   };
 
   const fallbackImage = "https://via.placeholder.com/400/300?text=PawCare";

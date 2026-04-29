@@ -85,9 +85,9 @@ const addAnimal = async (req, res) => {
       addedBy: req.user._id,
     };
 
-    // If image was uploaded via Multer, store the filename with prefix
+    // If image was uploaded via Multer, store the URL
     if (req.file) {
-      animalData.image = `/uploads/${req.file.filename}`;
+      animalData.image = req.file.path;
     }
 
     const animal = await Animal.create(animalData);
@@ -142,7 +142,7 @@ const updateAnimal = async (req, res) => {
 
     // Handle new image upload
     if (req.file) {
-      updateData.image = `/uploads/${req.file.filename}`;
+      updateData.image = req.file.path;
     } else if (req.body.image && req.body.image !== 'null' && req.body.image !== '') {
       // If no new file but image field is provided (string from frontend), use it
       updateData.image = req.body.image;
